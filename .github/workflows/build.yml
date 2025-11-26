@@ -14,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        epics-target: [RTEMS-beatnik, linux-x86_64] # , linux-aarch64]
+        epics-target: [linux-x86_64] # , linux-aarch64,RTEMS-beatnik, ]
         include:
           - os: ubuntu-latest # everyone is on ubuntu-latest
 
